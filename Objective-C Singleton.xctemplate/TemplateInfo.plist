@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>Description</key>
+	<string>An Objective-C singleton, with implementation and header files.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>classPrefix</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Singleton Prefix</string>
+			<key>Description</key>
+			<string>The prefix of the singleton.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>singletonName</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Singleton Name</string>
+			<key>Description</key>
+			<string>The name of the singleton.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>TrueSingleton</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>True Singleton</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_classPrefix:identifier______VARIABLE_singletonName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>3</string>
+	<key>Summary</key>
+	<string>An Objective-C singleton, with implementation and header files.</string>
+</dict>
+</plist>

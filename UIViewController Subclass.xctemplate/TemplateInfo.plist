@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>Description</key>
+	<string>An Objective-C class that is a subclass of UIViewController, with implementation and header files.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>classPrefix</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Controller Prefix</string>
+			<key>Description</key>
+			<string>The prefix of the controller.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>controllerName</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Controller Name</string>
+			<key>Description</key>
+			<string>The name of the controller.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>outlet</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Outlet Type</string>
+			<key>Description</key>
+			<string>What outlet to automatically generate.</string>
+			<key>Default</key>
+			<string>UIView</string>
+			<key>Values</key>
+			<array>
+				<string>UIView</string>
+				<string>UITableVIew</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_classPrefix:identifier______VARIABLE_controllerName:identifier___</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>4</string>
+	<key>Summary</key>
+	<string>An Objective-C class that is a subclass of UIViewController, with implementation and header files.</string>
+</dict>
+</plist>

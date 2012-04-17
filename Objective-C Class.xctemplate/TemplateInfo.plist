@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>Description</key>
+	<string>An Objective-C class, with implementation and header files.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>classPrefix</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Class Prefix</string>
+			<key>Description</key>
+			<string>The prefix of the class.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>className</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Class Name</string>
+			<key>Description</key>
+			<string>The name of the class.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>subclass</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Values</key>
+			<array>
+				<string>NSObject</string>
+				<string>UIView</string>
+				<string>UITableViewCell</string>
+			</array>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Name</key>
+			<string>Subclass of</string>
+			<key>Description</key>
+			<string>The class being subclassed.</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_classPrefix:identifier______VARIABLE_className:identifier___</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>5</string>
+	<key>Summary</key>
+	<string>An Objective-C class, with implementation and header files.</string>
+</dict>
+</plist>
