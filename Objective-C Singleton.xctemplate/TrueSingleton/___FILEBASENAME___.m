@@ -36,22 +36,29 @@ static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 	// NOTE: initialize is called in a thead-safe manner so we don't need to worry about two shared instances possibly being created.
 	
 	// Create a flag to keep track of whether or not this class has been initialized because this method could be called a second time if a subclass does not override it.
-	static BOOL isClassInitialized = NO;
+	static BOOL classInitialized = NO;
 	
 	// If this class has not been initialized then create the shared instance.
-	if (isClassInitialized == NO)
+	if (classInitialized == NO)
 	{
 		_sharedInstance = [[___FILEBASENAMEASIDENTIFIER___ alloc] 
 			init];
 		
-		isClassInitialized = YES;
+		classInitialized = YES;
 	}
 }
 
 + (id)allocWithZone: (NSZone *)zone
 {
-    return [[self sharedInstance] 
-		retain];
+	// Because we are creating the shared instance in the +initialize method we can check if it exists here to know if we should alloc an instance of the class.
+	if (_sharedInstance == nil)
+	{
+		return [super allocWithZone: zone];
+	}
+	else
+	{
+	    return [self sharedInstance];
+	}
 }
 
 - (id)init
