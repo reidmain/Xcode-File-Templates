@@ -61,6 +61,8 @@
 - (void)dealloc 
 {
 	// nil out delegates of any instance variables.
+	_tableView.delegate = nil;
+	_tableView.dataSource = nil;
 	
 	// Release instance variables.
 	[_tableView release];
