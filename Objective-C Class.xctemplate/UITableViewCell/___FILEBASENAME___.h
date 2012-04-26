@@ -1,7 +1,7 @@
 #pragma mark Constants
 
-extern NSString * const ___VARIABLE_className:identifier___Identifier;
-#define ___VARIABLE_className:identifier___Height	44.0f
+extern NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier;
+#define ___FILEBASENAMEASIDENTIFIER____Height	44.0f
 
 
 #pragma mark -

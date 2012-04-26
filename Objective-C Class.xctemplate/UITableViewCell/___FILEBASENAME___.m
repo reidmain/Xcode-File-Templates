@@ -3,7 +3,7 @@
 
 #pragma mark Constants
 
-NSString * const ___VARIABLE_className:identifier___Identifier = @"___VARIABLE_className:identifier___";
+NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEASIDENTIFIER___";
 
 
 #pragma mark -
