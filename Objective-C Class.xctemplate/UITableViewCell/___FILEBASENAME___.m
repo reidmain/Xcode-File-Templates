@@ -38,7 +38,7 @@ NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEAS
 {
 	// Abort if base initializer fails.
 	if ((self = [super initWithStyle: UITableViewCellStyleDefault 
-		reuseIdentifier: ___VARIABLE_className:identifier___Identifier]) == nil)
+		reuseIdentifier: ___FILEBASENAMEASIDENTIFIER____Identifier]) == nil)
 	{
 		return nil;
 	}
