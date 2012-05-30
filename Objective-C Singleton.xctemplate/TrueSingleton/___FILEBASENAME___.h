@@ -9,8 +9,6 @@
 #pragma mark Class Interface
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
-{
-}
 
 
 #pragma mark -

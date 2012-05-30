@@ -11,8 +11,6 @@
 @interface ___FILEBASENAMEASIDENTIFIER___ : UIViewController<
 	UITableViewDataSource, 
 	UITableViewDelegate>
-{
-}
 
 
 #pragma mark -

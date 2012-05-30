@@ -8,9 +8,6 @@
 #pragma mark Class Extension
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
-{
-	@private UIView *_sampleOutlet;
-}
 
 @property (nonatomic, retain) IBOutlet UIView *sampleOutlet;
 
@@ -26,6 +23,9 @@
 #pragma mark Class Definition
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
+{
+	@private UIView *_sampleOutlet;
+}
 
 
 #pragma mark -

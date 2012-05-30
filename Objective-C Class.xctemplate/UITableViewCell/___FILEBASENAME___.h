@@ -12,8 +12,6 @@ extern NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier;
 #pragma mark Class Interface
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : UITableViewCell
-{
-}
 
 
 #pragma mark -

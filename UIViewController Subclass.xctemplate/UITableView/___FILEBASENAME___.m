@@ -8,10 +8,6 @@
 #pragma mark Class Extension
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
-{
-	@private UITableView *_tableView;
-}
-
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 
@@ -27,6 +23,9 @@
 #pragma mark Class Definition
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
+{
+	@private UITableView *_tableView;
+}
 
 
 #pragma mark -

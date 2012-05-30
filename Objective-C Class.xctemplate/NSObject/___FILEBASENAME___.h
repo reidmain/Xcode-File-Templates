@@ -12,8 +12,6 @@ ___IMPORTHEADER_subclass___
 #pragma mark Class Interface
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_subclass___
-{
-}
 
 
 #pragma mark -
