@@ -89,15 +89,6 @@
 	// Perform additional initialization after nib outlets are bound.
 }
 
-- (void)viewDidUnload
-{
-	// Call base implementation.
-	[super viewDidUnload];
-	
-	// Release references to subviews of the controller's view. Only do this for objects that can be easily recreated.
-	self.sampleOutlet = nil;
-}
-
 - (void)viewWillAppear: (BOOL)animated
 {
 	// Call base implementation.
@@ -111,7 +102,7 @@
 	// Call base implementation.
 	[super viewDidAppear: animated];
 	
-	// Perform any actions required when the view is onscreen.
+	// Perform any actions required when the view is displayed onscreen.
 }
 
 - (void)viewWillDisappear: (BOOL)animated
