@@ -11,6 +11,8 @@
 
 @property (nonatomic, retain) IBOutlet UIView *sampleOutlet;
 
+- (void)_initialize___VARIABLE_controllerName:identifier___;
+
 
 @end // @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
@@ -39,15 +41,46 @@
 
 - (id)init
 {
-	// TODO: Add nib name.
 	// Abort if base initializer fails.
-	if ((self = [super initWithNibName: @"" 
-		bundle: nil]) == nil)
+	if ((self = [super init]) == nil)
 	{
 		return nil;
 	}
 	
-	// Initialize instance variables.
+	// Initialize view.
+	[self _initialize___VARIABLE_controllerName:identifier___];
+	
+	// Return initialized instance.
+	return self;
+}
+
+- (id)initWithNibName: (NSString *)nibName 
+    bundle:(NSBundle *)bundle
+{
+	// Abort if base initializer fails.
+	if ((self = [super initWithNibName: nibName 
+        bundle: bundle]) == nil)
+	{
+		return nil;
+	}
+	
+	// Initialize view.
+	[self _initialize___VARIABLE_controllerName:identifier___];
+	
+	// Return initialized instance.
+	return self;
+}
+
+- (id)initWithCoder: (NSCoder *)coder
+{
+	// Abort if base initializer fails.
+	if ((self = [super initWithCoder: coder]) == nil)
+	{
+		return nil;
+	}
+	
+	// Initialize view.
+	[self _initialize___VARIABLE_controllerName:identifier___];
 	
 	// Return initialized instance.
 	return self;
@@ -132,6 +165,11 @@
 
 #pragma mark -
 #pragma mark Private Methods
+
+- (void)_initialize___VARIABLE_controllerName:identifier___
+{
+	// Initialize instance variables.
+}
 
 
 @end // @implementation ___FILEBASENAMEASIDENTIFIER___
