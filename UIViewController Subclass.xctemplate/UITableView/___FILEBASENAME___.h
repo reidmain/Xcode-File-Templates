@@ -20,6 +20,8 @@
 #pragma mark -
 #pragma mark Constructors
 
+- (id)initWithDefaultNibName;
+
 
 #pragma mark -
 #pragma mark Static Methods

@@ -39,6 +39,20 @@
 #pragma mark -
 #pragma mark Constructors
 
+- (id)initWithDefaultNibName
+{
+	// TODO: Add nib name.
+	// Abort if base initializer fails.
+	if ((self = [self initWithNibName: @"" 
+		bundle: nil]) == nil)
+	{
+		return nil;
+	}
+
+	// Return initialized instance.
+	return self;
+}
+
 - (id)init
 {
 	// Abort if base initializer fails.
