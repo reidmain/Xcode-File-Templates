@@ -53,21 +53,6 @@
 	return self;
 }
 
-- (id)init
-{
-	// Abort if base initializer fails.
-	if ((self = [super init]) == nil)
-	{
-		return nil;
-	}
-	
-	// Initialize view.
-	[self _initialize___VARIABLE_controllerName:identifier___];
-	
-	// Return initialized instance.
-	return self;
-}
-
 - (id)initWithNibName: (NSString *)nibName 
     bundle:(NSBundle *)bundle
 {
