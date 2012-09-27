@@ -33,8 +33,6 @@
 #pragma mark -
 #pragma mark Properties
 
-@synthesize sampleOutlet = _sampleOutlet;
-
 
 #pragma mark -
 #pragma mark Constructors
@@ -92,12 +90,6 @@
 - (void)dealloc 
 {
 	// nil out delegates of any instance variables.
-	
-	// Release instance variables.
-	[_sampleOutlet release];
-	
-	// Call the base destructor.
-	[super dealloc];
 }
 
 

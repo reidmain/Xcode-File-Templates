@@ -33,8 +33,6 @@
 #pragma mark -
 #pragma mark Properties
 
-@synthesize tableView = _tableView;
-
 
 #pragma mark -
 #pragma mark Constructors
@@ -94,12 +92,6 @@
 	// nil out delegates of any instance variables.
 	_tableView.delegate = nil;
 	_tableView.dataSource = nil;
-	
-	// Release instance variables.
-	[_tableView release];
-	
-	// Call the base destructor.
-	[super dealloc];
 }
 
 

@@ -66,19 +66,6 @@ NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEAS
 }
 
 
-
-#pragma mark -
-#pragma mark Destructor
-
-- (void)dealloc
-{
-	// Release instance variables.
-	
-	// Call the base destructor.
-	[super dealloc];
-}
-
-
 #pragma mark -
 #pragma mark Public Methods
 

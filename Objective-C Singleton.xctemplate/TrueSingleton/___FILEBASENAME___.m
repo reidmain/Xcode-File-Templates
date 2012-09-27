@@ -77,18 +77,6 @@ static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 
 
 #pragma mark -
-#pragma mark Destructor
-
-- (void)dealloc
-{
-	// Release instance variables.
-	
-	// Call the base destructor.
-	[super dealloc];
-}
-
-
-#pragma mark -
 #pragma mark Public Methods
 
 + (___FILEBASENAMEASIDENTIFIER___ *)sharedInstance
@@ -101,25 +89,6 @@ static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 #pragma mark Overridden Methods
 
 - (id)copyWithZone: (NSZone *)zone
-{
-	return self;
-}
-
-- (id)retain
-{
-	return self;
-}
-
-- (NSUInteger)retainCount
-{
-	return NSUIntegerMax;
-}
-
-- (oneway void)release
-{
-}
-
-- (id)autorelease
 {
 	return self;
 }
