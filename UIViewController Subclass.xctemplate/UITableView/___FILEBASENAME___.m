@@ -26,7 +26,6 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 {
-	@private UITableView *_tableView;
 }
 
 

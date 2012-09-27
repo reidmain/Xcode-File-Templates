@@ -26,7 +26,6 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 {
-	@private UIView *_sampleOutlet;
 }
 
 
