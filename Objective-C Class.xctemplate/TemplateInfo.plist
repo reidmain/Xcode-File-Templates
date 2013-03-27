@@ -55,6 +55,7 @@
 				<string>NSObject</string>
 				<string>UIView</string>
 				<string>UITableViewCell</string>
+				<string>UICollectionViewCell</string>
 			</array>
 			<key>Default</key>
 			<string>NSObject</string>
