@@ -4,32 +4,27 @@
 #pragma mark Constants
 
 
-#pragma mark -
-#pragma mark Class Extension
+#pragma mark - Class Extension
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
 @end // @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
 
-#pragma mark -
-#pragma mark Class Variables
+#pragma mark - Class Variables
 
 static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 
 
-#pragma mark -
-#pragma mark Class Definition
+#pragma mark - Class Definition
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 
-#pragma mark -
-#pragma mark Properties
+#pragma mark - Properties
 
 
-#pragma mark -
-#pragma mark Constructors
+#pragma mark - Constructors
 
 + (void)initialize
 {
@@ -76,8 +71,7 @@ static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 }
 
 
-#pragma mark -
-#pragma mark Public Methods
+#pragma mark - Public Methods
 
 + (___FILEBASENAMEASIDENTIFIER___ *)sharedInstance
 {
@@ -85,8 +79,7 @@ static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 }
 
 
-#pragma mark -
-#pragma mark Overridden Methods
+#pragma mark - Overridden Methods
 
 - (id)copyWithZone: (NSZone *)zone
 {
@@ -94,8 +87,7 @@ static ___FILEBASENAMEASIDENTIFIER___ *_sharedInstance;
 }
 
 
-#pragma mark -
-#pragma mark Private Methods
+#pragma mark - Private Methods
 
 
-@end // @implementation ___FILEBASENAMEASIDENTIFIER___
+@end

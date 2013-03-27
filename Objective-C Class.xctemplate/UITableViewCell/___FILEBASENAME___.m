@@ -6,39 +6,48 @@
 NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEASIDENTIFIER___";
 
 
-#pragma mark -
-#pragma mark Class Extension
+#pragma mark - Class Extension
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
 - (void)_initialize___VARIABLE_className:identifier___;
 
 
-@end // @interface ___FILEBASENAMEASIDENTIFIER___ ()
+@end
 
 
-#pragma mark -
-#pragma mark Class Variables
+#pragma mark - Class Variables
 
 
-#pragma mark -
-#pragma mark Class Definition
+#pragma mark - Class Definition
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 
-#pragma mark -
-#pragma mark Properties
+#pragma mark - Properties
 
 
-#pragma mark -
-#pragma mark Constructors
+#pragma mark - Constructors
 
-- (id)init
+- (id)initWithDefaultIdentifier
 {
 	// Abort if base initializer fails.
-	if ((self = [super initWithStyle: UITableViewCellStyleDefault 
+	if ((self = [self initWithStyle: UITableViewCellStyleDefault 
 		reuseIdentifier: ___FILEBASENAMEASIDENTIFIER____Identifier]) == nil)
+	{
+		return nil;
+	}
+	
+	// Return initialized instance.
+	return self;
+}
+
+- (id)initWithStyle: (UITableViewCellStyle)style 
+	reuseIdentifier: (NSString *)reuseIdentifier
+{
+	// Abort if base initializer fails.
+	if ((self = [super initWithStyle: style 
+		reuseIdentifier: reuseIdentifier]) == nil)
 	{
 		return nil;
 	}
@@ -66,12 +75,10 @@ NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEAS
 }
 
 
-#pragma mark -
-#pragma mark Public Methods
+#pragma mark - Public Methods
 
 
-#pragma mark -
-#pragma mark Overridden Methods
+#pragma mark - Overridden Methods
 
 - (void)setHighlighted: (BOOL)highlighted 
 	animated: (BOOL)animated
@@ -94,8 +101,7 @@ NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEAS
 }
 
 
-#pragma mark -
-#pragma mark Private Methods
+#pragma mark - Private Methods
 
 - (void)_initialize___VARIABLE_className:identifier___
 {
@@ -103,4 +109,4 @@ NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier = @"___FILEBASENAMEAS
 }
 
 
-@end // @implementation ___FILEBASENAMEASIDENTIFIER___
+@end

@@ -4,30 +4,26 @@ extern NSString * const ___FILEBASENAMEASIDENTIFIER____Identifier;
 #define ___FILEBASENAMEASIDENTIFIER____Height	44.0f
 
 
-#pragma mark -
-#pragma mark Enumerations
+#pragma mark - Enumerations
 
 
-#pragma mark -
-#pragma mark Class Interface
+#pragma mark - Class Interface
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : UITableViewCell
 
 
-#pragma mark -
-#pragma mark Properties
+#pragma mark - Properties
 
 
-#pragma mark -
-#pragma mark Constructors
+#pragma mark - Constructors
+
+- (id)initWithDefaultIdentifier;
 
 
-#pragma mark -
-#pragma mark Static Methods
+#pragma mark - Static Methods
 
 
-#pragma mark -
-#pragma mark Instance Methods
+#pragma mark - Instance Methods
 
 
-@end // @interface ___FILEBASENAMEASIDENTIFIER___
+@end

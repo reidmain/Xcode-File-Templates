@@ -4,30 +4,25 @@
 #pragma mark Constants
 
 
-#pragma mark -
-#pragma mark Class Extension
+#pragma mark - Class Extension
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
-@end // @interface ___FILEBASENAMEASIDENTIFIER___ ()
+@end
 
 
-#pragma mark -
-#pragma mark Class Variables
+#pragma mark - Class Variables
 
 
-#pragma mark -
-#pragma mark Class Definition
+#pragma mark - Class Definition
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 
-#pragma mark -
-#pragma mark Properties
+#pragma mark - Properties
 
 
-#pragma mark -
-#pragma mark Constructors
+#pragma mark - Constructors
 
 - (id)init
 {
@@ -44,16 +39,13 @@
 }
 
 
-#pragma mark -
-#pragma mark Public Methods
+#pragma mark - Public Methods
 
 
-#pragma mark -
-#pragma mark Overridden Methods
+#pragma mark - Overridden Methods
 
 
-#pragma mark -
-#pragma mark Private Methods
+#pragma mark - Private Methods
 
 
-@end // @implementation ___FILEBASENAMEASIDENTIFIER___
+@end
