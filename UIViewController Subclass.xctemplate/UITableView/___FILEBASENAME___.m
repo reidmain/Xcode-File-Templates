@@ -91,9 +91,9 @@
 
 #pragma mark - Overridden Methods
 
-- (BOOL)shouldAutorotateToInterfaceOrientation: (UIInterfaceOrientation)interfaceOrientation
+- (NSUInteger)supportedInterfaceOrientations
 {
-	return YES;
+	return UIInterfaceOrientationMaskAll;
 }
 
 - (void)viewDidLoad
