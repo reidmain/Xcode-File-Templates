@@ -74,8 +74,7 @@
 - (void)setSelected: (BOOL)selected
 {
 	// Call the base implementation.
-	[super setSelected: selected 
-		animated: animated];
+	[super setSelected: selected];
 	
 	// Configure the table view cell for the selected state.
 }
