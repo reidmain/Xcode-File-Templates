@@ -57,6 +57,8 @@
 			<key>Values</key>
 			<array>
 				<string>UIView</string>
+				<string>UICollectionView</string>
+				<string>UICollectionView with FlowLayout</string>
 				<string>UITableVIew</string>
 			</array>
 		</dict>
