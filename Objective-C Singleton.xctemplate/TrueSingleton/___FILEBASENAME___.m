@@ -8,7 +8,7 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
-@end // @interface ___FILEBASENAMEASIDENTIFIER___ ()
+@end
 
 
 #pragma mark - Class Variables
