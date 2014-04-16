@@ -57,7 +57,7 @@ static NSString * const CellReuseIdentifier = @"CellIdentifier";
 		return nil;
 	}
 	
-	// Initialize view.
+	// Initialize view controller.
 	[self _initialize___VARIABLE_controllerName:identifier___];
 	
 	// Return initialized instance.
@@ -72,7 +72,7 @@ static NSString * const CellReuseIdentifier = @"CellIdentifier";
 		return nil;
 	}
 	
-	// Initialize view.
+	// Initialize view controller.
 	[self _initialize___VARIABLE_controllerName:identifier___];
 	
 	// Return initialized instance.

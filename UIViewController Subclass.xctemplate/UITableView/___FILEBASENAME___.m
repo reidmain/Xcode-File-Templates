@@ -53,7 +53,7 @@
 		return nil;
 	}
 	
-	// Initialize view.
+	// Initialize view controller.
 	[self _initialize___VARIABLE_controllerName:identifier___];
 	
 	// Return initialized instance.
@@ -68,7 +68,7 @@
 		return nil;
 	}
 	
-	// Initialize view.
+	// Initialize view controller.
 	[self _initialize___VARIABLE_controllerName:identifier___];
 	
 	// Return initialized instance.
