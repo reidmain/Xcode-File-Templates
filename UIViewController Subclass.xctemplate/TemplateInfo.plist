@@ -59,7 +59,7 @@
 				<string>UIView</string>
 				<string>UICollectionView</string>
 				<string>UICollectionView with FlowLayout</string>
-				<string>UITableVIew</string>
+				<string>UITableView</string>
 			</array>
 		</dict>
 		<dict>
